@@ -1,0 +1,56 @@
+
+.ManageChallanHeadings{
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.inputlableChallan{
+  color: #333333ce;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+.challanInputLabelWrapper{
+    display: flex;
+    flex-direction: column;
+}
+.ChllanInputs{
+    width: 320px;
+    border: 0;
+    box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+    margin: 3px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: 0;
+    border: 1px solid #0057b331;
+    margin-bottom: 10px;
+}
+.ManageStudentOptionInputs2{
+    width: 360px;
+    height: 40px;
+    border: 0;
+    box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+    margin: 3px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: 0;
+    border: 1px solid #0057b331;
+    margin-bottom: 10px;
+}
+
+.CHallanGenrateButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(to right, #0000ff, #8800ff);
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+    align-self: center;
+    margin: 20px;
+  }
+  .CHallanGenrateButton:hover {
+    background: linear-gradient(to right, #0000aa, #6000b4);
+  }
+  

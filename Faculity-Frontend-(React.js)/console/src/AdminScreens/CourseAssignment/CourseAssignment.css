@@ -1,0 +1,97 @@
+.selectoptionCourseAssngment {
+  width: 360px;
+  height: 50px;
+  border: 0;
+  box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+  margin: 3px;
+  border-radius: 5px;
+  outline: 0;
+  border: 1px solid #0057b331;
+  margin-bottom: 10px;
+}
+.selectoptionCourseAssngment2 {
+  width: 360px;
+  height: 50px;
+  border: 0;
+  box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+  margin: 3px;
+  border-radius: 5px;
+  outline: 0;
+  border: 1px solid #0057b331;
+  margin-bottom: 10px;
+}
+.selectoptionwrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.selectoptionwrapper div{
+    display: flex;
+    flex-direction: column;
+}
+.selectoptionwrapper div label{
+    font-weight: 700;
+}
+.CourseassignButton{
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(to right, #0000ff, #8800ff);
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+    margin: 5px 10px;
+  }
+  .CourseassignButton:hover{
+    background: linear-gradient(to right, #0000a8, #5a00a8);
+
+  }
+  .assignedCoursesList{
+    display: flex;
+    flex-direction: column;
+    box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+    border-radius: 10px;
+    border: 1px solid #0057b331;
+    margin: 5px;
+    padding: 10px;
+    /* width: 550px; */
+    
+  }
+  .assignedCoursesList li{
+    list-style: none;
+    margin-left: 50px;
+    padding: 10px;
+  }
+  .courseitemwapper{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px;
+    background: linear-gradient(to right, #0000ff38, #00e1ff13);
+    box-shadow: -2px 5px 20px rgba(25, 0, 255, 0.151);
+    margin-bottom: 20px;
+  }
+  .courseitemwapper div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    padding: 4px;
+
+  }
+  .courseUnassignButton{
+    background-color: #dd0808;
+    border: 0;
+    padding: 8px 15px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 700;
+    width: fit-content;
+    align-self: flex-end;
+  }
+  .courseUnassignButton:hover{
+    background-color: #990202;
+  }

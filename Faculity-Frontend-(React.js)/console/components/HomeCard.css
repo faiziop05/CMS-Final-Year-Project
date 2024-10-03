@@ -1,0 +1,43 @@
+.CardContainer{
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    /* height: 300px; */
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+    box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+    
+
+}
+.CardContainer:hover{
+    background: linear-gradient(to right, #0000ff0a, #8800ff0c);
+}
+
+.CardinnerContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.button{
+    border-width: 0px;
+    width: 300px;
+    height: 40px;
+    background: linear-gradient(to right, #0000ff, #8800ff);
+    border-radius: 10px;
+    color: aliceblue;
+    font-weight: 800;
+}
+.button:hover{
+    background: linear-gradient(to right, #0000aa, #6000b4);
+}
+.cardHeading{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.courseDetailsheading{
+color: #5e5e5e;
+font-weight: 700;
+font-family: Arial, Helvetica, sans-serif;
+}
+.courseDetailsValue{
+color: #5e5e5e;
+font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,32 @@
+.StudentlistWrapperConntainer4 {
+  align-items: center;
+  justify-content: space-between; /* Aligns content to the left and right */
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(240, 248, 255, 0);
+  box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+  padding: 10px 30px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.StudentlistWrapper4 {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 20px;
+  border-radius: 10px;
+  width: 90%;
+  padding: 10px 20px;
+  box-shadow: -1px 2px 20px rgba(25, 0, 255, 0.13);
+}
+.studentMatksTypep {
+  width: 100px;
+}
+.NameRollNumWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.NameRollNumWrapper p {
+  margin-left: 20px;
+}

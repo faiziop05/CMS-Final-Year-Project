@@ -1,0 +1,199 @@
+.ManageStudentInputsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ManageStudentOptionInputs{
+    width: 240px;
+    height: 40px;
+    border: 0;
+    box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+    margin: 3px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: 0;
+    border: 1px solid #0057b331;
+    margin-bottom: 10px;
+  }
+  .ManageStudentInputs {
+    width: 200px;
+    border: 0;
+    box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+    margin: 3px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: 0;
+    border: 1px solid #0057b331;
+    margin-bottom: 10px;
+  }
+  
+  .StudentDetails {
+    background-color: #74747418;
+    margin: 20px;
+    border: 0;
+    box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+    border-radius: 5px;
+    outline: 0;
+    border: 1px solid #0057b331;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  .StudentDetailsWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .CommonAttributes {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  .StudentTopButtons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .StudentTopButtons button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(to right, #0000ff, #8800ff);
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+    align-self: center;
+    margin: 5px 10px;
+  }
+  
+  .StudentTopButtons button:hover {
+    background: linear-gradient(to right, #0000aa, #6000b4);
+  }
+  
+  .AddStudentButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(to right, #0000ff, #8800ff);
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+    margin: 5px 20px;
+
+  }
+  
+  .AddStudentButton:hover {
+    background: linear-gradient(to right, #0000aa, #6000b4);
+  }
+  
+
+  .usernamePaswwordContienr{
+    display: flex;
+    flex-direction: column;
+  }
+  .usernamePaswwordContienr label{
+    font-weight: 600;
+    color: #333333b0;
+    font-size: 14px;
+    margin-left: 5px;
+  }
+  
+  .StudentsListContainerWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .StudentsListContainer {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 20px;
+    border-radius: 10px;
+    box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+    padding: 10px 30px;
+    width: 50%;
+    line-height: 20px;
+    overflow: hidden;
+  }
+  
+  .StudentsListDetailsContainer {
+    width: 80%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  
+  .RegisteredStudentsButtonWrapper {
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    width: 20%;
+  }
+  
+  .RegisteredStudentsUpdateButton {
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #f5970b;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+    align-self: center;
+    margin: 5px 10px;
+  }
+  .RegisteredStudentsUpdateButton:hover {
+    background-color: #ce7b00;
+  }
+  .RegisteredStudentsDeleteButton {
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #f50b0b;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+    align-self: center;
+    margin: 5px 10px;
+  }
+  .RegisteredStudentsDeleteButton:hover {
+    background-color: #a00000;
+  }
+
+  .AssignCourseButton{
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(to right, #0000ff, #8800ff);
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+    align-self: center;
+    margin: 5px 0px;
+  }
+  .AssignCourseButton:hover {
+    background: linear-gradient(to right, #0000aa, #6000b4);
+  }

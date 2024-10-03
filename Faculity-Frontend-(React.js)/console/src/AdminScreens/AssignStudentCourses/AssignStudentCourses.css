@@ -1,0 +1,156 @@
+.AssignStudentOptionInputs {
+  width: 240px;
+  height: 40px;
+  border: 0;
+  box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+  margin: 3px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  outline: 0;
+  border: 1px solid #0057b331;
+  margin-bottom: 10px;
+}
+.AssignStudentOptionInputs1 {
+  margin-top: 50px;
+}
+.AssignStudentOptionInputs2 {
+  width: 240px;
+  height: 80px;
+  border: 0;
+  box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+  margin: 3px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  outline: 0;
+  border: 1px solid #0057b331;
+  margin-bottom: 10px;
+}
+.ManageStudentOptionInputsWrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  /* Basic styling for the top navigation bar */
+.TopNavigationBar {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+/* Wrapper for the input fields */
+.ManageStudentOptionInputsWrapper {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+/* Styling for the input fields */
+.ManageStudentOptionInputs,
+.AssignStudentOptionInputs {
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.labelInputManageStudentsOptionWrapper{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.labelInputManageStudentsOptionWrapper label{
+  font-weight: 600;
+  color: #444;
+}
+/* Styling for the Assign button */
+.AssignStudentButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(to right, #0000ff, #8800ff);
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+  align-self: center;
+  margin: 5px 10px;
+}
+
+.AssignStudentButton:hover {
+  background: linear-gradient(to right, #0000aa, #6000b4);
+}
+.StudentList{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Enrolledlistconatiner{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+  border-radius: 10px;
+  border: 1px solid #0057b331;
+  margin: 5px;
+  padding: 10px;
+  width: 400px;
+}
+.Enrolledlistconatiner h3,p{
+color: #444;
+}
+.Enrolledlistconatiner div div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Enrolledlistconatiner li{
+  font-size: 18px;
+line-height: 30px;
+}
+.ListTeacherName{
+  color: #007bff;
+}
+.coursesList {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.courseItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 8px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+  padding: 10px 30px 10px 30px;
+}
+
+.courseItem input {
+  margin-right: 30px;
+
+}
+.checkAllUnchebutton{
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(to right, #0000ff, #8800ff);
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+  align-self: center;
+  margin: 5px 10px;
+
+}
+.checkAllUnchebutton:hover {
+  background: linear-gradient(to right, #0000aa, #6000b4);
+}

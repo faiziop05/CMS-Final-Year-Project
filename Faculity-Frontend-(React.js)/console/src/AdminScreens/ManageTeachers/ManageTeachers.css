@@ -1,0 +1,159 @@
+.ManageTeacherInputsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .ManageTeacherInputs {
+    width: 320px;
+    border: 0;
+    box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+    margin: 3px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: 0;
+    border: 1px solid #0057b331;
+    margin-bottom: 10px;
+  }
+  
+  .ManageTeacherSelectlist {
+    width: 360px;
+    height: 40px;
+    border: 0;
+    box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+    margin: 3px;
+    border-radius: 5px;
+    outline: 0;
+    border: 1px solid #0057b331;
+    margin-bottom: 10px;
+  }
+  
+  .TeacherTopButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .TeacherTopButtons button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(to right, #0000ff, #8800ff);
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+    align-self: center;
+    margin: 5px 10px;
+  }
+  
+  .TeacherTopButtons button:hover {
+    background: linear-gradient(to right, #0000aa, #6000b4);
+  }
+  
+  .AddteacherButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(to right, #0000ff, #8800ff);
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+    align-self: center;
+    margin: 5px 10px;
+  }
+  
+  .AddteacherButton:hover {
+    background: linear-gradient(to right, #0000aa, #6000b4);
+  }
+  
+  .TeachersListContainerWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .TeachersListContainer {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 20px;
+    border-radius: 10px;
+    box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+    padding: 10px 30px;
+    width: 50%;
+    line-height: 20px;
+    overflow: hidden;
+  }
+  
+  .TeachersListDetailsContainer {
+    width: 80%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  
+  .RegisteredteachersButtonWrapper {
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    width: 20%;
+  }
+  
+  .RegisteredteachersUpdateButton {
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #f5970b;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+    align-self: center;
+    margin: 5px 10px;
+  }
+  .RegisteredteachersUpdateButton:hover {
+    background-color: #ce7b00;
+  }
+  .RegisteredteachersDeleteButton {
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #f50b0b;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+    align-self: center;
+    margin: 5px 10px;
+  }
+  .RegisteredteachersDeleteButton:hover {
+    background-color: #a00000;
+  }
+
+  .AssignCourseButton{
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(to right, #0000ff, #8800ff);
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+    align-self: center;
+    margin: 5px 0px;
+  }
+  .AssignCourseButton:hover {
+    background: linear-gradient(to right, #0000aa, #6000b4);
+  }

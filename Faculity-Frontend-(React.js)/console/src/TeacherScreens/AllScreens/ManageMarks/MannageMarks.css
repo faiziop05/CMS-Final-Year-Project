@@ -1,0 +1,165 @@
+.MarksTypeTitleContianer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 40px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.MarksTypeTitleContianer div input,
+select {
+  width: 300px;
+  border: 1px solid rgba(0, 0, 0, 0.089);
+  height: 20px;
+  border-radius: 15px;
+  padding: 10px;
+  outline: 0;
+  margin: 5px 0px;
+  box-shadow: -1px 2px 20px rgba(25, 0, 255, 0.13);
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(88, 88, 88);
+}
+.MarksTypeTitleContianer div select {
+  width: 320px;
+  border: 1px solid rgba(0, 0, 0, 0.089);
+  height: 40px;
+  border-radius: 15px;
+  outline: 0;
+  margin: 5px 0px;
+  box-shadow: -1px 2px 20px rgba(25, 0, 255, 0.13);
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(88, 88, 88);
+}
+.MarksTypeTitleContianer div label {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(88, 88, 88);
+}
+.LabelInputWwrapperMarksTypeTitle {
+  display: grid;
+  margin: 5px 0;
+}
+
+.MarksStudentlistWrapper1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 20px;
+  border-radius: 10px;
+  box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+  padding: 10px 30px 10px 30px;
+  width: 70%;
+}
+.MarksStudentlistWrapper1 p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(88, 88, 88);
+}
+.MarksStudentlistWrapper1 input[type="text"] {
+  /* width: 90px; */
+  border-radius: 2px;
+  background-color: rgba(173, 173, 173, 0.068);
+  border: 1px solid rgba(209, 209, 209, 0.432);
+}
+.StudentlistWrapperConntainer1 {
+  align-items: center;
+  justify-content: center;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+.StudentMarkslistHaedingwrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 20px;
+  border-radius: 20px 20px 0px 0px;
+  box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+  padding: 10px 30px 10px 30px;
+  width: 70%;
+}
+.StudentMarkslistHaedingwrapper p {
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(88, 88, 88);
+}
+.MarksNameheading {
+  margin-right: 200px;
+}
+.marksmarksHeading {
+  margin-right: 20px;
+}
+.StudentMarkslistHeadingWrapperConntainer {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 80px;
+}
+
+.MarksSubmitButton {
+  border-width: 0px;
+  width: 150px;
+  height: 40px;
+  margin: 20px 13.5%;
+  align-self: start;
+  background: linear-gradient(to right, #0000ff, #8800ff);
+  border-radius: 10px;
+  color: aliceblue;
+  font-weight: 800;
+}
+.MarksSubmitButton:hover {
+  background: linear-gradient(to right, #0000aa, #6000b4);
+}
+button,
+input[type="button"] {
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .MarksStudentlistWrapper1 {
+    width: 90%;
+  }
+  .StudentMarkslistHaedingwrapper {
+    width: 90%;
+  }
+  .MarksSubmitButton {
+    margin: 20px 5%;
+  }
+  .MarksNameheading {
+    /* margin-left: -20px; */
+    margin-right:90px;
+  }
+  .MarksStudentlistWrapper1 input[type="text"] {
+    width: 50px; 
+ }
+}
+@media (max-width: 900px) {
+  .MarksStudentlistWrapper1 {
+    width: 80%;
+  }
+  .StudentMarkslistHaedingwrapper {
+    width: 80%;
+  }
+  .MarksSubmitButton {
+    margin: 20px 5%;
+  }
+  .MarksNameheading {
+    margin-left: 100px;
+  }
+}
+@media (max-width: 1000px) {
+  .MarksStudentlistWrapper1 {
+    width: 80%;
+  }
+  .StudentMarkslistHaedingwrapper {
+    width: 80%;
+  }
+  .MarksSubmitButton {
+    margin: 20px 5%;
+  }
+  .MarksStudentlistWrapper1 input[type="text"] {
+     width: 90px; 
+  }
+  .MarksNameheading {
+    margin-left: 200px;
+  }
+}

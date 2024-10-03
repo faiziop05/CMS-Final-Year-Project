@@ -1,0 +1,143 @@
+
+.TimeTableHeadings{
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    text-wrap: wrap;
+}
+label{
+
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ClallanAllWrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.ChallanComponentWapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 20px;
+  border-radius: 10px;
+  box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+  padding: 10px 30px 10px 30px;
+  width: 70%;
+  position: relative;
+}
+.challanDownloadButton {
+  position: absolute;
+  height: fit-content;
+  top: 70%;
+  left: 75%;
+  align-items: flex-end;
+  border: 0;
+  background-color: rgba(240, 248, 255, 0);
+  color: blue;
+  font-size: 17px;
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.FileUploadHeadingsInputWrapper {
+  display: flex;
+  flex-direction: column;
+}
+.FileUploadHeadingsInputWrapper label {
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.uploadedprogramlabel {
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 40px;
+}
+
+.SelectFileAllConatiner {
+  box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+  padding: 30px 20px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.FileUploadHeadingsInputWrapper select {
+  width: 360px;
+  border: 0;
+  box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+  margin: 3px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  outline: 0;
+  border: 1px solid #0057b331;
+  margin-bottom: 10px;
+}
+
+.FileUploadHeadingsInputWrapper input[type="file"] {
+  box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+}
+.custom-file-label {
+  width: 320px;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(to right, #0000ff, #8800ff);
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+  transition: background-color 0.3s ease;
+}
+
+.custom-file-label:hover {
+  background: linear-gradient(to right, #0000aa, #6000b4);
+}
+
+.TimeTableFileUploadButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(to right, #0000ff, #8800ff);
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+  align-self: flex-end;
+  margin: 20px;
+}
+.TimeTableFileUploadButton:hover {
+  background: linear-gradient(to right, #0000aa, #6000b4);
+}
+
+.ManageStudentOptionInputs1{
+  width: 320px;
+  border: 0;
+  box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+  margin: 3px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  outline: 0;
+  border: 1px solid #0057b331;
+  margin-bottom: 10px;
+}
+@media (max-width: 500px) {
+  .SelectFileAllConatiner  {
+    width: 350px;
+  }
+  .custom-file-label {
+    width: 300px;
+  }
+  .FileUploadHeadingsInputWrapper input[type="text"] {
+    width: 300px;
+  }
+  .ChallanComponentWapper {
+    width: 330px;
+  }
+  
+}

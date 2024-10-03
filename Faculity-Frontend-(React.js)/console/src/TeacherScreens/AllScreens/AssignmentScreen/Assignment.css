@@ -1,0 +1,227 @@
+.center-text {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  display: block;
+  margin-bottom: 10px;
+  padding: 15px 10px;
+  width: 400px;
+  max-width: 400px;
+  border: 1px solid #cccccc73;
+  border-radius: 6px;
+  box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+  outline: 0;
+}
+.input-field2 {
+  display: block;
+  margin-bottom: 10px;
+  padding: 15px 10px;
+  width: 420px;
+  height: 50px;
+  border: 1px solid #cccccc73;
+  border-radius: 6px;
+  box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+  outline: 0;
+}
+label{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.btn {
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  height: 40px;
+  background: linear-gradient(to right, #0000ff, #8800ff);
+  border-radius: 10px;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn:hover {
+  background: linear-gradient(to right, #0000aa, #6000b4);
+}
+
+.assignments-list {
+  margin-top: 20px;
+}
+
+.assignment-items {
+  list-style-type: none;
+  padding: 0;
+}
+
+.assignment-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+  margin: 10px 100px;
+}
+
+.assignment-item-content {
+  flex: 1;
+  width: 90%;
+}
+
+.assignment-item-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.assignment-item h4 {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.assignment-item p {
+  margin: 5px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  word-wrap: break-word;
+}
+
+.btn-small {
+  padding: 8px 10px;
+  width: 100px;
+  margin: 5px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-small:hover {
+  background-color: #218838;
+}
+
+.file-input {
+  display: none;
+}
+
+.custom-file-button {
+  padding: 8px 10px;
+  margin: 5px;
+  background-color: #ffc107;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100px;
+}
+
+.custom-file-button:hover {
+  background-color: #e0a800;
+}
+
+.download-link {
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.download-link:hover {
+  text-decoration: underline;
+}
+
+.completed-assignment {
+  margin-top: 10px;
+}
+
+@media (max-width: 500px) {
+    .input-field  {
+      display: block;
+      margin-bottom: 10px;
+      padding: 15px 10px;
+      width: 300px;
+      max-width: 300px;
+      border: 1px solid #cccccc73;
+      border-radius: 6px;
+      box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+      outline: 0;
+    }
+}
+
+.uploadedAssignmentWrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+  margin: 10px 100px;
+}
+.uploadedAssignmentWrapper div{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  margin-right: 30px;
+}
+.uploadedAssignmentWrapper div p{
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.uploadedAssignmentWrapper a{
+text-decoration: none;
+width: 80px;
+height: 40px;
+padding: 10px;
+background-color: #e0a800;
+border-radius: 10px;
+color: #fff;
+display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
+margin-right: 20px;
+}
+.uploadedAssignmentWrapper a:hover{
+  background-color: #c09000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.deleteUploadedassignmetn{
+padding: 10px;
+width: 100px;
+height: 60px;
+background-color: #e00000;
+border-radius: 10px;
+border: #0000aa00;
+color: #fff;
+display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
+margin-top: 10px;
+
+}
+.deleteUploadedassignmetn:hover{
+  background-color: #8d0000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.UploadedAssignmentsHeading{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}

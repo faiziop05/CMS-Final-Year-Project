@@ -1,0 +1,202 @@
+.DateTimeContainer{
+  display:  flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 40px;
+  padding: 10px;
+  border-radius: 20px;
+
+}
+.DateTimeContainer div input,select{
+ width: 300px;
+ border: 1px solid rgba(0, 0, 0, 0.089);
+ height: 20px;
+ border-radius: 15px;
+ padding: 10px;
+ outline: 0;
+ margin: 5px 0px;
+ box-shadow: -1px 2px 20px rgba(25, 0, 255, 0.13);
+ font-family: Arial, Helvetica, sans-serif;
+ color: rgb(88, 88, 88);
+}
+.DateTimeContainer div select{
+ width: 320px;
+ border: 1px solid rgba(0, 0, 0, 0.089);
+ height: 40px;
+ border-radius: 15px;
+ outline: 0;
+ margin: 5px 0px;
+ box-shadow: -1px 2px 20px rgba(25, 0, 255, 0.13);
+ font-family: Arial, Helvetica, sans-serif;
+ color: rgb(88, 88, 88);
+}
+.DateTimeContainer div label{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(88, 88, 88);
+}
+.LabelInputWwrapperDataTime{
+  display: grid;
+  margin: 5px 0;
+}
+
+
+
+
+
+.StudentlistWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 20px;
+  border-radius: 10px;
+  box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+  padding: 10px 30px 10px 30px;
+  width: 70%;
+}
+.StudentlistWrapper p{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(88, 88, 88);
+}
+.StudentlistWrapper input{
+  margin-right: 30px;
+}
+.StudentlistWrapperConntainer {
+  align-items: center;
+  justify-content: center;
+  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+.StudentlistHaedingwrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 20px;
+  border-radius: 20px 20px 0px 0px;
+  /* border-bottom: 1px solid rgba(0, 0, 0, 0.151); */
+  box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+  padding: 10px 30px 10px 30px;
+  width: 70%;
+}
+
+input[type="checkbox"] {
+cursor: pointer;
+width: 18px;
+height: 18px;
+}
+
+.StudentlistHaedingwrapper p{
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(88, 88, 88);
+}
+.Nameheading{
+  margin-left: 70px;
+}
+.StudentlistHeadingWrapperConntainer {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.CheckBoxSelectAllButtonWrapper{
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+
+}
+.CheckBoxSelectAllButton{
+  margin: 20px 13.5%;
+  align-self: self-end;
+  border-width: 0px;
+  width: 200px;
+  height: 40px;
+  background: linear-gradient(to right, #0000ff, #8800ff);
+  border-radius: 10px;
+  color: aliceblue;
+  font-weight: 800;
+}
+.CheckBoxSelectAllButton:hover{
+  background: linear-gradient(to right, #0000aa, #6000b4);
+}
+.AttendanceSubmitButton{
+  border-width: 0px;
+  width: 150px;
+  height: 40px;
+  margin: 20px 13.5%;
+  background: linear-gradient(to right, #0000ff, #8800ff);
+  border-radius: 10px;
+  color: aliceblue;
+  font-weight: 800;
+}
+.AttendanceSubmitButton:hover{
+  background: linear-gradient(to right, #0000aa, #6000b4);
+}
+.AttendanceOverviewButtoncontainer {
+  display: flex;
+  justify-content: flex-end; /* Aligns the button to the right */
+  margin-right: 30px;
+}
+
+.AttendanceOverviewButton {
+  border-width: 0px;
+  padding: 10px;
+  background: linear-gradient(to right, #0000ff, #8800ff);
+  border-radius: 10px;
+  color: aliceblue;
+  font-weight: 800;
+}
+.AttendanceOverviewButton:hover{
+  background: linear-gradient(to right, #0000aa, #6000b4);
+}
+
+
+.modifyAttendanceLabel p{
+  color: #0000ff;
+}
+.modifySelecterWrwpper{
+display: flex;
+flex-direction: column;
+}
+.modifySelecterWrwpper .modifyButton{
+width: 70px;
+height: 40px;
+background: linear-gradient(to right, #0000ff, #8800ff);
+border-radius: 10px;
+color: aliceblue;
+font-weight: 700;
+
+}
+.modifyButton:hover{
+  background: linear-gradient(to right, #0000aa, #6000b4);
+}
+
+
+@media (max-width: 800px) {
+  .StudentlistWrapper {
+    width: 90%;
+  }
+  .StudentlistHaedingwrapper {
+    width: 90%;
+  }
+  .AttendanceSubmitButton,.CheckBoxSelectAllButton {
+    margin: 20px 5%;
+  }
+}
+@media (max-width: 900px) {
+  .StudentlistWrapper {
+    width: 80%;
+  }
+  .StudentlistHaedingwrapper {
+    width: 80%;
+  }
+  .AttendanceSubmitButton,.CheckBoxSelectAllButton {
+    margin: 20px 5%;
+  }
+}
+button,input[type="button"] {
+  cursor: pointer;
+}
+

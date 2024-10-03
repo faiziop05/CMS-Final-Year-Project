@@ -1,0 +1,23 @@
+import { Login} from "./AllScreens/Login";
+import SuccessLoginPage from "./AllScreens/SuccessLoginPage";
+import Home from "./AllScreens/Home";
+import Profile from "./AllScreens/Profile";
+import Settings from "./AllScreens/Settings";
+import Dashboard from "./AllScreens/Dashboard";
+import Courses from "./AllScreens/Courses";
+import CourseContents from "./AllScreens/CourseContents";
+import ClassProceedings from "./AllScreens/ClassProceedings";
+import Assignments from "./AllScreens/Assignments";
+import Results from "./AllScreens/Results";
+import FeeChallan from "./AllScreens/FeeChallan";
+import CourseInfo from "./AllScreens/CourseInfo";
+import ClassProceedingSubjectInfo from "./AllScreens/ClassProceedingSubjectInfo";
+import CourseContentsSubject from "./AllScreens/CourseContentsSubject";
+import TimeTable from "./AllScreens/TimeTable";
+import Notification from "./AllScreens/Notification";
+import CourseResult from "./AllScreens/CourseResult";
+import CourseResultSubject from "./AllScreens/CourseResultSubject";
+import EnrollCoursesScreen from "./AllScreens/EnrollCoursesScreen";
+import CourseHistory from "./AllScreens/CourseHistory";
+import CourseHistorySubject from "./AllScreens/CourseHistorySubject";
+export {CourseResultSubject,CourseHistorySubject,EnrollCoursesScreen,CourseResult,Notification,Login,TimeTable,ClassProceedingSubjectInfo,SuccessLoginPage,Profile,Home,Settings,Dashboard,Courses,Assignments,ClassProceedings,CourseContents,FeeChallan,Results,CourseInfo,CourseContentsSubject,CourseHistory}

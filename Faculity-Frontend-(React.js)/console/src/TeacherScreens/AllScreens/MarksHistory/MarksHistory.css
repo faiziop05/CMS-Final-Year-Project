@@ -1,0 +1,35 @@
+.studentHistorynameButton {
+  border: 0;
+  background-color: rgba(240, 248, 255, 0);
+  margin: 0;
+  padding: 0;
+}
+.StudentlistWrapperConntainer3 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+}
+.StudentlistWrapper3 {
+  border: 0;
+  background-color: rgba(240, 248, 255, 0);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 20px;
+  border-radius: 10px;
+  box-shadow: -2px 4px 20px rgba(25, 0, 255, 0.151);
+  padding: 10px 30px 10px 30px;
+  width: 70%;
+}
+.StudentlistWrapper3:hover {
+    background: linear-gradient(to right, #0000aa18, #6000b415);
+    box-shadow: -4px 4px 10px rgba(25, 0, 255, 0.267);
+
+  }
+.StudentlistWrapper3 p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(88, 88, 88);
+}
